@@ -1,0 +1,7 @@
+{
+    "verbose": true,
+    "extensions": [],
+    "ignore": ["*.css", "*.js", "*.html"],
+    "delay": 100,
+    "exec": "yarn start"
+}
