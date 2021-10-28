@@ -1,3 +1,11 @@
-* {
-    margin: 0px;
+// Media query for mobile devices
+@media only screen and (max-width: 600px) {
+    .container {
+        background-color: black;
+        display: block;
+    }
+
+    .buttonContainer {
+        display: block;
+    }
 }

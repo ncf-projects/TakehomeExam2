@@ -1,0 +1,11 @@
+@mixin font($font: Zeitung) {
+    font-family: zeitung, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@mixin font($font: Nasalization) {
+    font-family: nasalization, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

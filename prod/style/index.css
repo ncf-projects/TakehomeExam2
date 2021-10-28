@@ -1,5 +1,12 @@
-* {
-  margin: 0px;
+@media only screen and (max-width: 600px) {
+  .container {
+    background-color: black;
+    display: block;
+  }
+
+  .buttonContainer {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
