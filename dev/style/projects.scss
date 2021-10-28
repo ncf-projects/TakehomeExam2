@@ -1,0 +1,44 @@
+@import "./mixins.scss";
+
+html, body {
+    overflow-y: auto;
+}
+
+.body {
+    overflow: scroll;
+    overflow-x: hidden;
+    h1 {
+        @include nas();
+        @include center();
+        font-size: 64px;
+        width: fit-content;
+        line-height: 64px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        color: white;
+    }
+
+    .project {
+        height: fit-content;
+        width: fit-content;
+        width: 50;
+        display: flex;
+        @include center();
+        img {
+            flex: 1;
+            height: 250px;
+            width: 50vw;
+            float: right;
+        }
+        p {
+            flex: 2;
+            @include zeit();
+            text-align: center;
+            color: white;
+            overflow-wrap: break-word;
+            float: right;
+            font-size: 48px;
+            transform: translateY(-36px);
+        }
+    }
+}

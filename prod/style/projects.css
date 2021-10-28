@@ -1,0 +1,49 @@
+html, body {
+  overflow-y: auto;
+}
+
+.body {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.body h1 {
+  font-family: nasalization, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 64px;
+  width: fit-content;
+  line-height: 64px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  color: white;
+}
+.body .project {
+  height: fit-content;
+  width: fit-content;
+  width: 50;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.body .project img {
+  flex: 1;
+  height: 250px;
+  width: 50vw;
+  float: right;
+}
+.body .project p {
+  flex: 2;
+  font-family: zeitung, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  color: white;
+  overflow-wrap: break-word;
+  float: right;
+  font-size: 48px;
+  transform: translateY(-36px);
+}
+
+/*# sourceMappingURL=projects.css.map */
