@@ -23,7 +23,7 @@ nav {
     }
 
     a {
-        @include font($font: Nasalization);
+        @include nas();
         color: rgba($color: #FFFFFF, $alpha: 0.68);
 
         font-size: 48px;

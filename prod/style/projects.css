@@ -22,7 +22,7 @@ html, body {
 .body .project {
   height: fit-content;
   width: fit-content;
-  width: 50;
+  width: 100%;
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -30,7 +30,6 @@ html, body {
 .body .project img {
   flex: 1;
   height: 250px;
-  width: 50vw;
   float: right;
 }
 .body .project p {
@@ -44,6 +43,28 @@ html, body {
   float: right;
   font-size: 48px;
   transform: translateY(-36px);
+}
+
+@media screen and (max-width: 950px) {
+  .project {
+    flex-direction: column;
+  }
+  .project img {
+    margin-top: -50px;
+    margin-bottom: 50px;
+    width: 100vw;
+  }
+}
+@media screen and (min-width: 951px) {
+  .project {
+    margin-bottom: 50px;
+  }
+  .project img {
+    width: 50vw;
+  }
+  .project p {
+    width: 50vw;
+  }
 }
 
 /*# sourceMappingURL=projects.css.map */

@@ -1,0 +1,57 @@
+html, body {
+  overflow-y: auto;
+}
+
+.body {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.body h1 {
+  font-family: nasalization, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 64px;
+  width: fit-content;
+  line-height: 64px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  color: white;
+}
+.body h3, .body h2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  margin-bottom: 20px;
+}
+.body h2 {
+  font-family: zeitung, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  font-size: 32px;
+}
+.body h3 {
+  font-size: 24px;
+}
+.body .pairing {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: zeitung, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: white;
+}
+.body .pairing p {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=education.css.map */

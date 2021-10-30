@@ -1,0 +1,2 @@
+For generating repository cards:
+https://github.com/nwtgck/gh-card

@@ -21,13 +21,12 @@ html, body {
     .project {
         height: fit-content;
         width: fit-content;
-        width: 50;
+        width: 100%;
         display: flex;
         @include center();
         img {
             flex: 1;
             height: 250px;
-            width: 50vw;
             float: right;
         }
         p {
@@ -39,6 +38,35 @@ html, body {
             float: right;
             font-size: 48px;
             transform: translateY(-36px);
+        }
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .project {
+        flex-direction: column;
+        
+        img {
+            margin-top: -50px;
+            margin-bottom: 50px;
+            width: 100vw;
+        }
+        
+        // p {
+        //     width: 50vw;
+        // }
+    }
+}
+
+@media screen and (min-width: 951px) {
+    .project {
+        margin-bottom: 50px;
+
+        img {
+            width: 50vw;
+        }
+        p {
+            width: 50vw;
         }
     }
 }

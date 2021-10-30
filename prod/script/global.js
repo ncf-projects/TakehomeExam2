@@ -1,5 +1,5 @@
 "use strict";
-const elemNames = ["Home", "Contact", "Projects", "Commission"];
+const elemNames = ["Home", "Contact", "Projects", "Education"];
 let smaller = false;
 function formatNav() {
     if (window.innerWidth < 950) {
@@ -25,6 +25,9 @@ function formatNav() {
         }
     }
 }
+window.addEventListener("load", () => {
+    formatNav();
+});
 window.addEventListener("resize", () => {
     if (window.innerWidth < 950) {
         if (!smaller) {

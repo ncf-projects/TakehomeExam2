@@ -1,0 +1,52 @@
+@import "./mixins.scss";
+
+html, body {
+    overflow-y: auto;
+}
+
+.body {
+    overflow: scroll;
+    overflow-x: hidden;
+    h1 {
+        @include nas();
+        @include center();
+        font-size: 64px;
+        width: fit-content;
+        line-height: 64px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        color: white;
+    }
+
+    h3, h2 {
+        @include center();
+        width: fit-content;
+        margin-bottom: 20px
+    }
+
+    h2 {
+        @include zeit();
+        color: white;
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    .pairing {
+        @include center();
+        @include zeit();
+        margin-top: 40px;
+        margin-bottom: 40px;
+        text-align: center;
+        color: white;
+
+        p {
+            @include center();
+            width: fit-content;
+            margin-bottom: 20px;
+            font-weight: 300;
+        }
+    }
+}
